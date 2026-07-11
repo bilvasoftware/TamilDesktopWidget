@@ -42,7 +42,33 @@ A modern Windows desktop widget that displays the current time, English date, an
 
 ## 📸 Screenshot
 
-(Add your screenshot here after uploading it to GitHub.)
+## Main Widget
+
+![Main Widget](Screenshots/MainWidget.png)
+
+---
+
+## Appearance
+
+![Appearance](Screenshots/Appearance.png)
+
+---
+
+## Widget Settings
+
+![Widget Settings](Screenshots/WidgetSettings.png)
+
+---
+
+## About
+
+![About](Screenshots/About.png)
+
+---
+
+## System Tray
+
+![Tray Menu](Screenshots/TrayMenu.png)
 
 ---
 
