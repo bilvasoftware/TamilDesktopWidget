@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+
+		<UseWPF>true</UseWPF>
+		<UseWindowsForms>true</UseWindowsForms>
+
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>clockicon.ico</ApplicationIcon>
+		<AssemblyTitle>TamilDesktopWidget</AssemblyTitle>
+		<AssemblyName>TamilDesktopWidget</AssemblyName>
+		<RootNamespace>TamilDesktopWidget</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="AhaConvert_img.icons8.ico" />
+	  <None Remove="Assets\BilvaLogo.ico" />
+	  <None Remove="Assets\BilvaLogo.png" />
+	  <None Remove="setting.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="clockicon.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="AhaConvert_img.icons8.ico" />
+	  <Resource Include="Assets\BilvaLogo.ico">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\BilvaLogo.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="setting.ico" />
+	</ItemGroup>
+
+</Project>

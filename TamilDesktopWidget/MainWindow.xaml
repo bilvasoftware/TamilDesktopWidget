@@ -1,0 +1,129 @@
+﻿<Window x:Class="TamilDesktopWidget.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tamil Desktop Widget"
+        Width="450"
+        Height="525"
+        MinWidth="280"
+        MinHeight="220"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="CanResizeWithGrip"
+        AllowsTransparency="False"
+Background="White"
+        Topmost="False"
+        WindowStartupLocation="CenterScreen"
+        Icon="Assets/BilvaLogo.ico">
+
+
+    <Border x:Name="WidgetBorder"
+        Margin="10"
+            Background="#DD1F1F1F"
+            CornerRadius="20"
+            Padding="10"
+            MouseLeftButtonDown="Border_MouseLeftButtonDown">
+
+        <DockPanel>
+
+            <!-- TOP MENU -->
+            <Menu DockPanel.Dock="Top"
+                  Background="Transparent"
+                  Foreground="Black"
+                  BorderThickness="0">
+
+                <MenuItem Header="File">
+
+                    <MenuItem Header="🔒 Lock Widget"
+                              Foreground="Black" 
+                              Click="LockWidget_Click"/>
+
+                    <MenuItem Header="🔓 Unlock Widget"
+                               Foreground="Black"
+                              Click="UnlockWidget_Click"/>
+
+                    <Separator/>
+
+                    <MenuItem Header="⚙ Settings"
+                              Foreground="Black"
+                              Click="Settings_Click"/>
+
+                    <Separator/>
+
+                    <MenuItem Header="❌ Exit"
+                               Foreground="Black"
+                              Click="Exit_Click"/>
+
+                </MenuItem>
+
+            </Menu>
+
+            <!-- CONTENT -->
+            <Viewbox Stretch="Uniform" Height="487">
+
+                <Grid Width="400" Height="430">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2.5*"/>
+                        <RowDefinition Height="0.4*"/>
+                        <RowDefinition Height="2.1*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- TOP SECTION -->
+                    <StackPanel Grid.Row="0"
+                                VerticalAlignment="Center">
+
+                        <TextBlock x:Name="TimeText"
+                                   Text="loading"
+                                   FontSize="60"
+                                   FontWeight="Bold"
+                                   Foreground="White"
+                                   HorizontalAlignment="Center" Height="74"/>
+
+                        <TextBlock x:Name="EnglishDayText"
+                                   Text="loading"
+                                   FontSize="60"
+                                   FontWeight="Bold"
+                                   Foreground="White"
+                                   HorizontalAlignment="Center"/>
+
+                        <TextBlock x:Name="EnglishDateText"
+                                   Text="loading"
+                                   FontSize="60"
+                                   FontWeight="Bold"
+                                   Foreground="White"
+                                   HorizontalAlignment="Center" Height="100"/>
+
+                    </StackPanel>
+
+                    <!-- DIVIDER -->
+                    <Separator Grid.Row="1"
+                               Margin="0,10"/>
+
+                    <!-- TAMIL -->
+                    <StackPanel Grid.Row="2"
+                                VerticalAlignment="Center">
+
+                        <TextBlock x:Name="TamilDateText"
+                                   Text="loading"
+                                   FontSize="60"
+                                   FontWeight="Bold"
+                                   Foreground="#FFD08C"
+                                   HorizontalAlignment="Center"/>
+
+                        <TextBlock x:Name="TamilDayText"
+                                   Text="loading"
+                                   FontSize="60"
+                                   FontWeight="Bold"
+                                   Foreground="#FFD08C"
+                                   HorizontalAlignment="Center"/>
+
+                    </StackPanel>
+
+                </Grid>
+
+            </Viewbox>
+
+        </DockPanel>
+
+    </Border>
+
+</Window>
