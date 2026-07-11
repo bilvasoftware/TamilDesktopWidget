@@ -42,36 +42,35 @@ A modern Windows desktop widget that displays the current time, English date, an
 
 ## 📸 Screenshot
 
+# Screenshots
+
 ## Main Widget
 
-![Main Widget](Screenshots/MainWidget.png)
+![Main Widget](TamilDesktopWidget/Screenshots/MainWidget.png)
 
 ---
 
 ## Appearance
 
-![Appearance](Screenshots/Appearance.png)
+![Appearance](TamilDesktopWidget/Screenshots/Appearance.png)
 
 ---
 
 ## Widget Settings
 
-![Widget Settings](Screenshots/WidgetSettings.png)
+![Widget Settings](TamilDesktopWidget/Screenshots/WidgetSettings.png)
 
 ---
 
 ## About
 
-![About](Screenshots/About.png)
+![About](TamilDesktopWidget/Screenshots/About.png)
 
 ---
 
 ## System Tray
 
-![Tray Menu](Screenshots/TrayMenu.png)
-
----
-
+![Tray Menu](TamilDesktopWidget/Screenshots/TrayMenu.png)
 ## 📂 Project Structure
 
 ```
