@@ -42,7 +42,7 @@ A modern Windows desktop widget that displays the current time, English date, an
 
 ## 📸 Screenshot
 
-# Screenshots
+
 
 ## Main Widget
 
@@ -92,7 +92,7 @@ TamilDesktopWidget
 Clone the repository
 
 ```
-git clone https://https://github.com/bilvasoftwaree/TamilDesktopWidget.git
+git clone https://github.com/bilvasoftwaree/TamilDesktopWidget.git
 ```
 
 Open the solution in Visual Studio 2026.
