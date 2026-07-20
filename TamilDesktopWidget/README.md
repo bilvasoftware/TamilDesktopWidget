@@ -109,6 +109,15 @@ Founder - Bilva Software
 
 📧 bilvasoftware@gmail.com
 
+## 🌐 Connect with Bilva Software
+
+- 🌍 Blog: https://bilvasoftware.blogspot.com/
+- 💻 GitHub: https://github.com/bilvasoftware
+- 💼 LinkedIn: https://www.linkedin.com/in/bilva-software-aa532a421/
+- ▶️ YouTube: https://www.youtube.com/@bilvaSoftware
+- 📢 Telegram: https://t.me/bilvasoftware
+- 📧 Email: bilvasoftware@gmail.com
+
 LinkedIn
 
 https://www.linkedin.com/in/bilva-software-aa532a421/
