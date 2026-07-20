@@ -1,6 +1,6 @@
-﻿# 🕒 Tamil Desktop Widget
+﻿# 🕒 Tamil Desktop Widget (2026 Edition)
 
-A modern Windows desktop widget that displays the current time, English date, and Tamil calendar with a beautiful customizable interface.
+A modern Windows desktop widget for the **2026 Tamil Calendar**, displaying the current time, English date, and Tamil calendar with a beautiful customizable interface.
 
 ---
 
